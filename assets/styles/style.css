@@ -1,0 +1,573 @@
+
+/* Aplicación en todas las imagenes */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+html{
+    font-family: verdana;
+}
+
+header{
+    background-color: rgb(186, 120, 73);
+    min-height: 5vh;
+    border-bottom: 2px dashed black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-left: .5rem;
+}
+
+/* nav{
+    margin-top: 10vh;
+} */
+
+main{
+    background-color: rgb(250, 221, 179);
+    min-height: 90vh;
+}
+
+footer{
+    background-color: rgb(186, 120, 73); 
+    min-height: 5vh;
+}
+
+
+
+
+
+
+
+/* Pagina index */
+
+.main1{
+    text-align: center;
+    padding: 2rem;
+}
+
+#icecream{
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#making-coffee{
+    width: 30vw;
+    height: 50vh;
+}
+
+.img2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    flex-direction: row-reverse;
+}
+
+.p1{
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+#mapa{
+    margin: 2rem;
+    width: 300px; 
+    height: 200px;
+}
+
+
+
+
+
+
+/* Para About Us */
+
+#two-people,
+#pancakes,
+#mini-cakes{
+    width:30vw;
+    height: 50vh;
+
+}
+
+.img3,
+.img4,
+.img5{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.p2,
+.p3,
+.p4{
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+
+
+/* Para Contact */
+
+#womancoffee{
+    width: 60vw;
+    height: 60vh;
+    display: block;
+    align-items: center;
+    margin: auto;
+    
+}
+
+
+.p5{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+
+
+
+
+/* Para MORE INFORMATION */
+
+table,
+tr,
+th,
+td{
+    border: 1px dashed black;
+    border-collapse: collapse;
+    justify-content: space-around;
+    text-align: center;
+}
+table{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: rgb(250, 215, 150);
+    width: 40vw;
+    height: 70vh;
+}
+
+
+.tabla{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Para BENEFIT AND TIPS */
+
+
+ul,
+ol{
+    padding: 2rem;
+    width: 30rem;
+}
+li{
+    padding: .5rem;
+}
+
+#coffee,
+#cupcoffee{
+    width:35vw;
+    height:50vh;
+}
+
+.container1,
+.container2{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* Para Raffle */
+
+.cup-w-coffee,
+.heart-coffee{
+    width: 35vw;
+    height: 50vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenesraffle{
+    padding: 2rem;
+}
+
+
+
+.cuestion{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7{
+    display: flex;
+    flex-direction: column;
+}
+
+.c8{
+    padding: 1rem;
+}
+
+
+
+label{
+    padding: .5rem;
+}
+
+.imagandcuest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/*  Desde 320px a 768px*/
+
+
+@media only screen and (max-width:768px) {
+    /* Home */
+    header{
+        min-height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+    }
+
+
+    nav > a{
+        padding: .3rem;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mapa{
+        width: 80vw;
+        height: 90px;
+    }
+    #logo{
+        width: 3rem;
+        height: 3rem;
+        margin-top: 5vh;
+        display: flex;
+        
+    }
+    .main1{
+        text-align: center;
+        padding: 2rem;
+    }
+    
+    #icecream{
+        width: 60vw;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img1{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #making-coffee{
+        width: 30vw;
+        height: 20vh;
+    }
+    
+    /* About */
+    .img2{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        flex-direction: row-reverse;
+    }
+    
+    .p1{
+        width: 40rem;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    html{
+        font-family: none;
+    }
+
+    #two-people, 
+    #pancakes, 
+    #mini-cakes {
+        width: 30vw;
+        height: 20vh;
+    }
+
+    .img3, 
+    .img4, 
+    .img5 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p2, 
+    .p3, 
+    .p4{
+        width: 10rem;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+    }
+
+    #womancoffee{
+        width: 80vw;
+        height: 30vh;
+        display: block;
+        align-items: center;
+        margin: auto;
+        
+    }
+    
+    
+    .p5{
+        text-align: center;
+    }
+    
+    
+    .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+
+    table,
+    tr,
+    th,
+    td{
+        border: 1px dashed black;
+        border-collapse: collapse;
+        justify-content: space-around;
+        text-align: center;
+    }
+    table{
+        background-color: rgb(250, 215, 150);
+        width: 40vw;
+        height: 25vh;
+    }
+    
+    
+    .tabla{
+        display: flex;
+        justify-content: center;
+    }
+
+    ul,
+    ol{
+        padding: 1rem;
+        width: 30vw;
+    }
+    li{
+        padding: .5rem;
+    }
+    
+    #coffee,
+    #cupcoffee{
+        width:35vw;
+        height:20vh;
+    }
+    
+    .container1,
+    .container2{
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    .cup-w-coffee,
+    .heart-coffee{
+        width: 80vw;
+        height: 30vh;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .imagenesraffle{
+        padding: 2rem;
+    }
+    
+    
+    
+    .cuestion{
+        width: 80vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .c1,
+    .c2,
+    .c3,
+    .c4,
+    .c5,
+    .c6,
+    .c7{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .c8{
+        padding: 1rem;
+    }
+    
+    
+    
+    label{
+        padding: .5rem;
+    }
+
+    .imagandcuest{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
+
+/* DE 768PX A 1024PX */
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    html{
+        font-family: verdana;
+    }
+    
+    header{
+        min-height: 5vh;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+    }
+    
+    nav > a {
+        color: white;
+        text-decoration: none;
+        margin-left: .5rem;
+    }
+
+    #making-coffee{
+        width: 30vw;
+        height: 40vh;
+    }
+
+
+    #two-people, 
+    #pancakes, 
+    #mini-cakes {
+        width: 40vw;
+        height: 20vh;
+
+    }
+
+    .p2, 
+    .p3, 
+    .p4{
+        width: 20rem;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+    }
+    
+
+    #mapa{
+        width: 90vw;
+        height: 90px;
+    }
+
+    #womancoffee{
+        width: 80vw;
+        height: 30vh;
+        display: block;
+        align-items: center;
+        margin: auto;
+        
+    }
+
+    table{
+        background-color: rgb(250, 215, 150);
+        width: 60vw;
+        height: 25vh;
+    }
+
+    #coffee,
+    #cupcoffee{
+        width:40vw;
+        height:50vh;
+    }
+    ul,
+    ol{
+        padding: 1.5rem;
+        width: 30vw;
+    }
+    li{
+        padding: .5rem;
+    }
+
+    }
+       
+
+
