@@ -415,7 +415,7 @@ label{
     ul,
     ol{
         padding: 1rem;
-        width: 30vw;
+        width: 80vw;
     }
     li{
         padding: .5rem;
@@ -423,14 +423,14 @@ label{
     
     #coffee,
     #cupcoffee{
-        width:35vw;
-        height:20vh;
+        width:80vw;
+        height:25vh;
     }
     
     .container1,
     .container2{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         padding: 2rem;
     }
     
